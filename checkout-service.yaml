@@ -7,7 +7,6 @@ metadata:
     amazon.com/ecs-cluster: arn:aws:ecs:us-east-1:612488371952:cluster/staging
     amazon.com/ecs-service: v2-geraltofrivia-staging
     aws.amazon.com/amazon-ecs-service-arn: arn:aws:ecs:us-east-1:612488371952:service/staging/v2-geraltofrivia-staging
-    aws.amazon.com/amazon-ecs-service-tags: "env=staging,team=frontend-team" 
 spec:
   type: service
   owner: frontend-team
