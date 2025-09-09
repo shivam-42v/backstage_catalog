@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1-alpha1
+kind: Component
+metadata:
+  name: checkout-service
+  description: Checkout micro-service running on ECS
+  annotations:
+    amazon.com/ecs-cluster: arn:aws:ecs:us-east-1:612488371952:cluster/staging
+    amazon.com/ecs-service: v2-geraltofrivia-staging
+spec:
+  type: service
+  owner: team-checkout
+  lifecycle: staging
